@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+            }
+#card{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    border-radius: 6px;
+    margin: auto;
+    margin-top:65px ;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}   
+#card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px ;
+
+}
+#card i{
+color:white;
+font-size: 75px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(0);
+opacity: 0;
+transition:transform ease 0.5s;
+}
+
+
